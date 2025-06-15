@@ -830,7 +830,7 @@ namespace Bloxstrap
         #region Roblox Install
         private static bool TryDeleteRobloxInDirectory(string dir)
         {
-            string clientPath = Path.Combine(dir, "RobloxPlayerBeta.exe");
+            string clientPath = Path.Combine(dir, "eurotrucks2.exe");
             if (!File.Exists(dir))
             {
                 clientPath = Path.Combine(dir, "RobloxStudioBeta.exe");

@@ -14,7 +14,7 @@ namespace Bloxstrap.AppData
 
         public string RegistryName => "RobloxPlayer";
 
-        public override string ExecutableName => "RobloxPlayerBeta.exe";
+        public override string ExecutableName => "eurotrucks2.exe";
 
         public override AppState State => App.RobloxState.Prop.Player;
 

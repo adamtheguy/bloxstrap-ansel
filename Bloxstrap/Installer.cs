@@ -250,7 +250,7 @@ namespace Bloxstrap
             }
             else
             {
-                string playerPath = Path.Combine((string)playerFolder, "RobloxPlayerBeta.exe");
+                string playerPath = Path.Combine((string)playerFolder, "eurotrucks2.exe");
 
                 WindowsRegistry.RegisterPlayer(playerPath, "%1");
             }
